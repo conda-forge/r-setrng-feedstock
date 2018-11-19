@@ -14,9 +14,9 @@ source:
   sha256: 1a1a399682a06a5fea3934985ebb1334005676c6a2a22d06f3c91c3923432908
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -43,8 +43,7 @@ about:
     setting all the  necessary information for reproducibility.  See the vignette and
     reference manual for examples.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
