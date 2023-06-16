@@ -1,11 +1,11 @@
-About r-setrng
-==============
+About r-setrng-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-setrng-feedstock/blob/main/LICENSE.txt)
 
 Home: http://distr.r-forge.r-project.org/
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-setrng-feedstock/blob/main/LICENSE.txt)
 
 Summary: SetRNG provides utilities to help set and record the setting of the seed and the uniform and normal generators used when a random experiment is run. The utilities can be used in other functions  that do random experiments to simplify recording and/or setting all the  necessary information for reproducibility.  See the vignette and reference manual for examples.
 
